@@ -1,0 +1,176 @@
+html body {
+    background-color: rgb(43, 45, 66);
+    color: rgb(255, 255, 255);
+    font-family: 'poppins', sans-serif;
+}
+
+.profile-img {
+    width: 40%;
+    padding-bottom: 2rem;
+}
+
+.intro-text {
+    padding-bottom: 30rem;
+    padding-top: 10rem;
+}
+
+.intro-p {
+    font-size: 1.5rem;
+}
+
+.col {
+    align-items: center;
+}
+
+.fade-in-left{
+    -webkit-animation: fade-in-left 1.2s both;
+    -moz-animation: fade-in-left 1.2s both;
+    -o-animation: fade-in-left 1.2s both;
+    animation: fade-in-left 1.2s both;
+}
+
+@-webkit-keyframes fade-in-left {
+    0% {
+        opacity: 0;
+        -webkit-transform: translateX(-100px);
+    }
+    100%{
+        opacity: 1;
+        -webkit-transform: translateX(0);
+    }
+}
+@-moz-keyframes fade-in-left {    
+    0% {
+    opacity: 0;
+    -moz-transform: translateX(-100px);
+}
+100%{
+    opacity: 1;
+    -moz-transform: translateX(0);
+}}
+@-o-keyframes fade-in-left {
+        0% {
+    opacity: 0;
+    -o-transform: translateX(-100px);
+}
+100%{
+    opacity: 1;
+    -o-transform: translateX(0);
+}}
+@keyframes fade-in-left {
+        0% {
+    opacity: 0;
+    transform: translateX(-100px);
+}
+100%{
+    opacity: 1;
+    transform: translateX(0);
+}}
+
+.fade-in-right{
+    -webkit-animation: fade-in-right 1.2s both;
+    -moz-animation: fade-in-right 1.2s both;
+    -o-animation: fade-in-right 1.2s both;
+    animation: fade-in-right 1.2s both;
+}
+
+@-webkit-keyframes fade-in-right {
+    0% {
+        opacity: 0;
+        -webkit-transform: translateX(100px);
+    }
+    100%{
+        opacity: 1;
+        -webkit-transform: translateX(0);
+    }
+}
+@-moz-keyframes fade-in-right {    
+    0% {
+    opacity: 0;
+    -moz-transform: translateX(100px);
+}
+100%{
+    opacity: 1;
+    -moz-transform: translateX(0);
+}}
+@-o-keyframes fade-in-right {
+        0% {
+    opacity: 0;
+    -o-transform: translateX(100px);
+}
+100%{
+    opacity: 1;
+    -o-transform: translateX(0);
+}}
+@keyframes fade-in-right {
+        0% {
+    opacity: 0;
+    transform: translateX(100px);
+}
+100%{
+    opacity: 1;
+    transform: translateX(0);
+}}
+
+.portfolio {
+    margin-bottom: 10rem;
+}
+
+.card {
+    color: black;
+    width: 50%;
+    margin-bottom: 5rem;
+    background:grey;
+    -webkit-transform: translateY(50px) translateZ(0);
+    transform: translateY(50px) translateZ(0);
+    -webkit-transition-delay: .3s;
+    -o-transition-delay: .3s;
+    transition-delay: .3s;
+    -webkit-transition: .4s;
+    -o-transition: .4s;
+    transition: .4s;
+    opacity: 0;
+}
+
+.card-body a {
+    color: rgb(43, 45, 66);
+}
+
+.card-body a:hover {
+    color: rgb(217, 4, 41);
+}
+
+.mx-auto {
+    width: 90%;
+    max-width: 600px;
+}
+
+nav {
+    background: rgb(141, 153, 174);
+}
+
+#projects {
+    padding-top: 5rem;
+}
+
+.navbar-collapse a {
+    color: rgb(255, 255, 255);
+}
+
+.navbar-collapse a:hover {
+    color: rgb(217, 4, 41);
+}
+
+svg {
+    width: 30px;
+    height: 30px;
+    margin: 2rem .4rem;
+    fill: #ef233c;
+}
+
+.inView {
+    opacity: 1;
+    -webkit-transform: translateY(0px) rotate(0deg) translateZ(0);
+    transform: translateY(0px) rotate(0deg) translateZ(0);
+}
+
