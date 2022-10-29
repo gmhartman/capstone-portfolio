@@ -10,7 +10,7 @@ html body {
 }
 
 .intro-text {
-    padding-bottom: 30rem;
+    padding-bottom: 12rem;
     padding-top: 10rem;
 }
 
@@ -132,6 +132,10 @@ html body {
     opacity: 0;
 }
 
+.inView {
+    width: 100%;
+}
+
 .card-body a {
     color: rgb(43, 45, 66);
 }
@@ -174,3 +178,31 @@ svg {
     transform: translateY(0px) rotate(0deg) translateZ(0);
 }
 
+@media (min-width: 576px) {
+    .intro-text {
+        padding-bottom: 30rem;
+        padding-top: 10rem;
+    }
+}
+
+@media (min-width: 992px) {
+    .card-col {
+        max-width: 30%;
+    }
+
+    .card {
+        max-width: 100%;
+    }
+
+    .project-cards,
+    .row-2 {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .row-2 {
+        max-width: 100%;
+        margin-top: 2rem;
+    }
+}
